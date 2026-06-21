@@ -68,3 +68,28 @@ LIMIT 35;
 │ outlook    │      140000.0 │          199 │
 └────────────┴───────────────┴──────────────┘
 */
+
+/*
+INSIGHTS & KEY TAKEAWAYS:
+========================
+1. Premium System & Low-Level Languages:
+   - Rust ($210,000) commands a massive financial premium, sitting at the top of the chart despite low demand (232).
+   - High-performance, compiled languages like Golang ($184,000) and C ($152,000) also pay exceptionally well. 
+   - This indicates that companies are willing to pay top dollar for engineers who can optimize heavy-compute, 
+     low-latency infrastructure.
+
+2. Infrastructure-as-Code (IaC) & DevOps Dominance:
+   - Terraform ($184,000 with 3,248 listings) and Kubernetes ($151,000 with 4,202 listings) alsot demonstrate a good insight: 
+    that modern data engineering heavily overlaps with DevOps. 
+   - We can conclude then that managing infrastructure as code and orchestrating containers are premium skills that elevate
+     a base data engineer salary.
+
+3. Data Governance & Security Compliance:
+   - GDPR compliance ($170,000) appears on the high-pay list. This highlights that data protection, 
+     privacy laws, and data governance are business-critical priorities that companies fund aggressively.
+
+SUMMARY:
+The highest salaries come from knowing data tools and skills and come from specialized adjacencies. 
+Data engineers looking to maximize their earning potential should cross-train in DevOps/IaC (Terraform, Kubernetes), 
+real-time data streaming (Kafka), or adopt high-performance programming languages (Rust, Go).
+*/

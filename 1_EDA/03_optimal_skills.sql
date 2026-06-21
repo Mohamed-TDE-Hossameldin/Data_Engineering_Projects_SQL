@@ -57,3 +57,35 @@ LIMIT 25;
 │ bigquery   │      135000.0 │             4.8 │   0.65 │
 └────────────┴───────────────┴─────────────────┴────────┘
 */
+
+/*
+INSIGHTS & KEY TAKEAWAYS:
+========================
+1. The DevOps Disruption (Terraform Claims #1):
+   - Terraform ($184,000 / Rank 0.98) secures the absolute top spot. Because the formula factors in both high 
+     salary and steady volume, it highlights a possible market gap: companies are aggressively competing for 
+     Data Engineers who can manage infrastructure-as-code (IaC). 
+   - Kubernetes ($151,000 / Rank 0.76) and Docker ($135,000 / Rank 0.68) further solidify that cloud-native 
+     containerization is highly valued and widely demanded.
+
+2. The Python & SQL Baseline Realignment:
+   - Python (Rank 0.95) and SQL (Rank 0.91) retain near-perfect optimal scores. While their median salaries 
+     are slightly lower than specialized languages like Rust or Go, their sheer ubiquity (indicated by the 
+     maximum Ln demand score of 7.0) makes them non-negotiable requirements for career stability.
+
+3. The Optimal Distributed Compute & Streaming Stack:
+   - Airflow ($150,000 / Rank 0.90) and Spark ($140,000 / Rank 0.87) represent the gold standard for high-paying, 
+     high-volume skills. They heavily outrank older big data tech like Hadoop (Rank 0.72).
+   - Kafka ($145,000 / Rank 0.83) serves as the leading optimal skill for real-time streaming architectures.
+
+4. Cloud Provider Economics:
+   - AWS ($137,000 / Rank 0.92) is the most economically rewarding cloud platform to learn, followed closely 
+     by Azure ($128,000 / Rank 0.79) and GCP ($136,000 / Rank 0.72). Snowflake ($136,000 / Rank 0.83) remains 
+     the most optimal specialized cloud data warehouse platform.
+
+SUMMARY:
+An optimal modern Data Engineering learning path should not just focus on data manipulation with SQL/Python. 
+To achieve the best blend of high salary and abundant job opportunities, engineers must target the 'Sweet Spot' 
+stack: AWS for cloud infrastructure, Airflow for orchestration, Spark for big data compute, Kafka for streaming, 
+and crucially, Terraform for infrastructure automation.
+*/
